@@ -1,0 +1,7 @@
+curl https://login.salesforce.com/services/oauth2/token -d "grant_type=password" -d "client_id=3MVG9mclR62wycM2PYaB5bNraBFO8skUbx6pOtb1BL641Qy5593egP9UWE.61dD2IyIC2OUhB_ngDNZuhzkhc" -d "client_secret=8279927584492065060" -d "username=lisa.lankford@five9demo.com" -d "password=salesforce1"
+
+8279927584492065060
+
+3MVG9mclR62wycM2PYaB5bNraBFO8skUbx6pOtb1BL641Qy5593egP9UWE.61dD2IyIC2OUhB_ngDNZuhzkhc
+
+curl https://lisafive9demo-dev-ed.lightning.force.com/services/data/v20.0/ -H 'Authorization: Bearer access_token'
