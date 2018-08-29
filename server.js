@@ -6,7 +6,7 @@ bodyParser = require('body-parser'),
 app = express().use(bodyParser.json()); 
 
 
-app.listen(process.env.PORT || 1337, () => console.log('Webhook listening'));
+app.listen(process.env.PORT || 5000, () => console.log('Webhook listening'));
 
 // Creates the endpoint for our webhook 
 app.post('/webhook', (req, res) => {  
